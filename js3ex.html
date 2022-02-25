@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="widht=device-width, initial scale=1.0">
+<meta name="author" content="João">
+</head>
+<body>
+
+<script>
+
+let x = parseInt(prompt("Quantos usuários quer adicionar?"))
+alert(`Você escolheu cadastrar ${x} usuários!`)
+var z = []
+var i = 0
+
+while (i < x){
+    var y = (i +1)
+    z.push(parseInt(y)) 
+    i++}
+
+var user= Object()
+user.nome = prompt('Nome do usuário um:')
+user.idade = prompt('Idade do usuário um:')
+document.write("Nome informado para usuário um:", user["nome"],"<br>","Idade informada para usuário um:", user["idade"],"<br>");
+
+if (x==2) {
+    var user2= Object()
+    user2.nome= prompt("Nome do segundo usuário:")
+    user2.idade= prompt("Idade do segundo usuário:")
+    document.write("Nome informado para usuário dois:",user2["nome"],"<br>","Idade informada para usuário dois:",user2["idade"],"<br>");
+}
+
+if (x==3) {
+    var user2= Object()
+    user2.nome= prompt("Nome do segundo usuário:")
+    user2.idade= prompt("Idade do segundo usuário:")
+    
+    let user3= Object()
+    user3.nome= prompt("Nome do terceiro usuário:")
+    user3.idade= prompt("Idade do terceiro usuário:")
+    document.write("Nome informado para usuário dois:",user2["nome"],"<br>","Idade informada para usuário dois:",user2["idade"],"<br>");
+    document.write("Nome informado para usuário três:",user3["nome"],"<br>","Idade informada para usuário três:",user3["idade"],"<br>");
+    
+}
+
+if (x==4) {
+    var user2= Object()
+    user2.nome= prompt("Nome do segundo usuário:")
+    user2.idade= prompt("Idade do segundo usuário:")
+    
+    let user3= Object()
+    user3.nome= prompt("Nome do terceiro usuário:")
+    user3.idade= prompt("Idade do terceiro usuário:")
+    
+    var user4= Object()
+    user4.nome= prompt("Nome do quarto usuário:")
+    user4.idade= prompt("Idade do quarto usuário:")
+    document.write("Nome informado para usuário dois:",user2["nome"],"<br>","Idade informada para usuário dois:",user2["idade"],"<br>");
+    document.write("Nome informado para usuário três:",user3["nome"],"<br>","Idade informada para usuário três:",user3["idade"],"<br>");
+    document.write("Nome informado para usuário quatro:",user4["nome"],"<br>","Idade informada para usuário quatro:",user4["idade"],"<br>");
+}
+
+</script>
+</body>
+</html>
